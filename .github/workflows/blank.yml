@@ -37,5 +37,5 @@ jobs:
   call_workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: call another workflow
-        uses: ./github/workflows/callee.yml
+      - name: echo message
+        uses: echo "My first GitHub Actions"
