@@ -38,4 +38,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo message
-        uses: echo "My first GitHub Actions"
+        run: echo "My first GitHub Actions"
