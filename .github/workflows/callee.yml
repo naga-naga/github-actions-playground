@@ -1,0 +1,13 @@
+name: GitHub Actions Test
+
+on:
+  workflow_call:
+
+jobs:
+  echo_message:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: echo message
+        run: echo "My first GitHub Actions"

@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  call_workflow:
+    steps:
+      - name: call another workflow
+        uses: ./github/workflows/callee.yml
